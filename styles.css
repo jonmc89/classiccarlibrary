@@ -91,6 +91,12 @@ body {
   text-decoration: none;
 }
 
+@media screen and (max-width: 1500px) {
+  .about-container {
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 718px) {
   .navbar {
     display: none;
@@ -111,7 +117,10 @@ body {
   .sidenav {
     width: 100%;
     opacity: 95%;
+  }
 
+  .about img {
+    height: 200px;
   }
 }
 
@@ -158,8 +167,69 @@ body {
 
 .about {
   background-color: rgb(115, 189, 143);
+  height: 100vh;
 }
 
 .about img {
   border-radius: 5px;
+}
+
+@media screen and (max-width: 1500px) {
+  .about-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .about-text {
+    width: 90%;
+  }
+
+  .about-text p {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 757px) {
+  .about img {
+    height: 300px;
+  }
+
+}
+
+@media screen and (max-width: 1500px) {
+  .about-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 718px) {
+  .navbar {
+    display: none;
+  }
+
+  .sidenav {
+    width: 50%;
+    opacity: 95%;
+  }
+
+  .sidenav-open {
+    display: block;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .sidenav {
+    width: 100%;
+    opacity: 95%;
+  }
+
+  .about img {
+    height: 200px;
+  }
+
+  .hero-section {
+    height: 50vh;
+
+  }
 }
