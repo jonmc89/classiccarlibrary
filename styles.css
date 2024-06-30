@@ -225,7 +225,7 @@ body {
   }
 
   .about {
-    height: 100vh;
+    height: 100%;
   }
   .about-text{
     margin-top: 450px;
