@@ -224,6 +224,11 @@ body {
     opacity: 95%;
   }
 
+
+  .about {
+    height: 100vh;
+  }
+    
   .about img {
     height: 200px;
   }
