@@ -225,10 +225,7 @@ body {
   }
 
   .about {
-    height: 100%;
-  }
-  .about-text{
-    margin-top: 450px;
+    height: auto;
   }
     
   .about img {
