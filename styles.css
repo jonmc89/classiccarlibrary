@@ -245,3 +245,9 @@ body {
   .about {
     height: auto;
 }
+  .about img{
+    height: 200px;
+}
+}
+
+
