@@ -237,3 +237,10 @@ body {
 
   }
 }
+
+@media screen and (max-width: 932px) {
+  .hero-section{
+    height: 50vh;
+  }
+
+}
