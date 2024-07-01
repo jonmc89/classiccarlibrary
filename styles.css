@@ -244,10 +244,11 @@ body {
   }
   .about {
     height: auto;
-}
+    position: relative;
+  }
   .about img{
     height: 200px;
-}
+  }
 }
 
 
